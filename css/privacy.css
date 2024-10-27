@@ -1,0 +1,40 @@
+.about-mybreadcrumb {
+    background-color: #eee;
+    padding: 10px 20px;
+    display: block;
+    border-top: 3px solid var(--mor-color);
+}
+
+.about-mybreadcrumb ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.about-mybreadcrumb i {
+    color: black;
+}
+
+.about-mybreadcrumb .breadcrumb-item {
+    color: var(--mor-color) !important;
+}
+
+.about-mybreadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: #ddd !important;
+}
+
+#about-section h3.title {
+    background-color: var(--darkBlue-color);
+    font-size: 1.7rem;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.content .comment {
+    color: var(--mor-color);
+    font-size: 1.1rem;
+}
+
+#about-section .content .sub-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

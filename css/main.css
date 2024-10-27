@@ -1,0 +1,288 @@
+.hero-section .pw-box {
+    width: 100%;
+}
+
+.hero-section .pw-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-section .pw-new-prev {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.hero-section .pw-new-next {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.iframe-container {
+    background-image: linear-gradient(45deg, var(--darkBlue-color), var(--mor-color));
+    border-radius: 10px;
+}
+
+/* ---------------------------- */
+
+#cat-section {
+    background-image: url('../imgs/cat-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+#cat-section .card-container {
+    background-color: var(--mor-color);
+    border-radius: 10px;
+    color: white;
+    opacity: 0.7;
+}
+
+#cat-section .card-container img {
+    max-width: 80px;
+    margin-bottom: 10px;
+    margin-inline: auto;
+    display: block;
+}
+
+#cat-section .card-container p {
+    text-align: justify;
+}
+
+#cat-section a.details {
+    text-decoration: none;
+    color: var(--darkBlue-color);
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-inline: auto;
+    display: block;
+    width: fit-content;
+    transition: all 0.3s linear;
+}
+
+#cat-section a.details:hover {
+    background-color: var(--darkBlue-color);
+    color: white;
+}
+
+/* ---------------------------- */
+.fat-section h3 {
+    font-weight: bold;
+    color: var(--mor-color) !important;
+}
+
+.fat-section .line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--darkBlue-color);
+}
+
+.fat-section .newSwiper1 .swiper-slide {
+    padding-block: 10px;
+}
+
+.fat-section .pw-box {
+    max-width: 340px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fat-section .pw-box img {
+    width: 100%;
+
+}
+
+.fat-section .newSwiper1 h3 {
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.fat-section .newSwiper1 a {
+    text-decoration: none;
+}
+
+.newSwiper1 .text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fat-section .newSwiper1 .text p {
+    text-align: justify;
+    font-size: 15px;
+    height: 7rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.fat-section .newSwiper1 .text a.swipBtn {
+    display: block;
+    width: fit-content;
+    background-color: #b257a5;
+    color: white;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 7px;
+    transition: all 0.2s linear;
+}
+
+.fat-section .newSwiper1 .text a.swipBtn:hover {
+    opacity: 0.9;
+}
+
+.fat-section .newSwiper1>.pw-new-prev1 {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.fat-section .newSwiper1>.pw-new-next1 {
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.fat-section .pw-new-prev1,
+.fat-section .pw-new-next1 {
+    color: var(--mor-color);
+}
+
+/* ------------------------------ */
+#privacy-section {
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1) inset;
+    padding: 30px 0;
+}
+
+#privacy-section p {
+    color: var(--darkBlue-color) !important;
+    line-height: 30px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* ---------------------------- */
+.teeth-section h3 {
+    font-weight: bold;
+    color: var(--mor-color) !important;
+}
+
+.teeth-section .line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--darkBlue-color);
+}
+
+.teeth-section .newSwiper2 .swiper-slide {
+    padding-block: 10px;
+}
+
+.teeth-section .pw-box {
+    max-width: 340px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teeth-section .pw-box img {
+    width: 100%;
+
+}
+
+.teeth-section .newSwiper2 h3 {
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.teeth-section .newSwiper2 a {
+    text-decoration: none;
+}
+
+.teeth-section .newSwiper2 .text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teeth-section .newSwiper2 .text p {
+    text-align: justify;
+    font-size: 15px;
+    height: 7rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.teeth-section .newSwiper2 .text a.swipBtn {
+    display: block;
+    width: fit-content;
+    background-color: #b257a5;
+    color: white;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.teeth-section .newSwiper2 .text a.swipBtn:hover {
+    opacity: 0.8;
+}
+
+.teeth-section .newSwiper2>.pw-new-prev2 {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.teeth-section .newSwiper2>.pw-new-next2 {
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.teeth-section .pw-new-prev2,
+.teeth-section .pw-new-next2 {
+    color: var(--mor-color);
+}

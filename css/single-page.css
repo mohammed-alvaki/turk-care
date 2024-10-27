@@ -1,0 +1,159 @@
+a {
+    text-decoration: none !important;
+}
+
+.singlepage-mybreadcrumb {
+    background-color: #eee;
+    padding: 10px 20px;
+    display: block;
+    border-top: 3px solid var(--mor-color);
+}
+
+.singlepage-mybreadcrumb ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.singlepage-mybreadcrumb i {
+    color: black;
+}
+
+.singlepage-mybreadcrumb .breadcrumb-item {
+    color: var(--mor-color) !important;
+}
+
+.singlepage-mybreadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: #ddd !important;
+}
+
+.main-section .img-container {
+    min-width: 300px;
+}
+
+.main-section .img-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-section p.title {
+    background-color: var(--mor-color);
+    color: white;
+    padding: 7px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.main-section p.demo {
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid;
+}
+
+.main-section iframe {
+    border-radius: 7px;
+}
+
+p.consult {
+    color: var(--mor-color);
+}
+
+/* ------------------------------ */
+
+/* ---------------------------- */
+.more-section h3 {
+    font-weight: bold;
+    color: var(--mor-color) !important;
+}
+
+.more-section .line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--darkBlue-color);
+}
+
+.more-section .newSwiper3 .swiper-slide {
+    padding-block: 10px;
+}
+
+.more-section .pw-box {
+    max-width: 340px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.more-section .pw-box img {
+    width: 100%;
+
+}
+
+.more-section .newSwiper3 h3 {
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.more-section .newSwiper3 a {
+    text-decoration: none;
+}
+
+.newSwiper3 .text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.more-section .newSwiper3 .text p {
+    text-align: justify;
+    font-size: 15px;
+    height: 7rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.more-section .newSwiper3 .text a.swipBtn {
+    display: block;
+    width: fit-content;
+    background-color: #b257a5;
+    color: white;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 7px;
+    transition: all 0.3s linear;
+}
+
+.more-section .newSwiper3 .text a.swipBtn:hover {
+    opacity: 0.8;
+}
+
+.more-section .newSwiper3>.pw-new-prev3 {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.more-section .newSwiper3>.pw-new-next3 {
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 100;
+    color: var(--mor-color);
+}
+
+.more-section .pw-new-prev3,
+.more-section .pw-new-next3 {
+    color: var(--mor-color);
+}
