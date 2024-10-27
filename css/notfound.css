@@ -1,0 +1,34 @@
+.mybreadcrumb {
+    background-color: #eee;
+    padding: 10px 20px;
+    display: block;
+    border-top: 3px solid var(--mor-color);
+}
+
+ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mybreadcrumb i {
+    color: black;
+}
+
+.breadcrumb-item {
+    color: var(--mor-color) !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ddd !important;
+}
+
+p.result {
+    font-size: 1.5rem;
+}
+
+#result-section hr {
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    height: 2px !important;
+    color: #ccc !important;
+    border-radius: 50%;
+}

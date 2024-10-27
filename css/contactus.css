@@ -1,0 +1,51 @@
+.mybreadcrumb {
+    background-color: #eee;
+    padding: 10px 20px;
+    display: block;
+    border-top: 3px solid var(--mor-color);
+}
+
+ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mybreadcrumb i {
+    color: black;
+}
+
+.breadcrumb-item {
+    color: var(--mor-color) !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ddd !important;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+#contactus-section h3.title {
+    background-color: var(--darkBlue-color);
+    font-size: 1.7rem;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+#contactus-section .call-info p {
+    color: black;
+    font-size: 1.3rem;
+}
+
+#contactus-section .call-info i {
+    color: var(--mor-color);
+}
+
+#contactus-section .hr {
+    background: linear-gradient(to right, transparent, black, transparent);
+    opacity: 0.5;
+    margin-bottom: 10px;
+    height: 2px;
+    border-radius: 50%;
+}
